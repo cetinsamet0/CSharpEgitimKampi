@@ -251,8 +251,29 @@ namespace _03_MakingDecision
 
             #endregion
             #region Calculator
+            int number1, number2,result;
+            char process;
+            Console.Write("Lütfen 1.Sayıyı Giriniz: ");
+            number1 = int.Parse(Console.ReadLine());
 
-            //40.Dakika
+            Console.Write("Lütfen 2.Sayıyı Giriniz: ");
+            number2 = int.Parse(Console.ReadLine());
+
+            Console.Write("Yapmak istediğiniz işlemi giriniz: ");
+            process = char.Parse(Console.ReadLine());
+
+            Console.Clear();
+            switch (process)
+            {
+                case '+': result = number1 + number2; Console.WriteLine("İşleminizin Sonucu: " + result);   break;
+                case '-': result = number1 - number2; Console.WriteLine("İşleminizin Sonucu: " + result);   break;
+                case '*': result = number1 * number2; Console.WriteLine("İşleminizin Sonucu: " + result);   break;
+                case '/': result = number1 / number2; Console.WriteLine("İşleminizin Sonucu: " + result);   break;
+                default: Console.WriteLine("Lütfen geçerli bir işlem giriniz!!"); break;
+            
+            }
+            
+        
 
             #endregion
 
