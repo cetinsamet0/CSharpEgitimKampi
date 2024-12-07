@@ -65,17 +65,93 @@ namespace _04_Loops
             //{
             //    if (i % 2 == 0)
             //    {
-                   
+
             //        totalValue += i;
             //        Console.WriteLine(i);
-                    
+
             //    }
             //}
             //Console.WriteLine("-------------");
             //Console.WriteLine(totalValue);  
 
-            //19.Dakikada Kaldım
+            //Console.WriteLine("Kaça kadar olan sayının kalanlarını görmek istiyorsun? ");
+            //int value = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Sayı kaça tam bölünsün? ");
+            //int divide = Convert.ToInt32(Console.ReadLine());
+            //Console.Clear();
+            //for(int i = 1; i <= value; i++)
+            //{
+            //    if (i % divide == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+            //int count = 0;
+            //for(int i = 1;i<=70; i++)
+            //{
+            //    if(i % 7 == 0)
+            //    {
+            //        count++;
+
+            //    }
+            //}
+            //Console.WriteLine(count);
+
+            //int bacterium = 0;
+            //int time = 24 * 60;
+            //for(int i = 1; i <= time; i++)
+            //{
+            //    bacterium +=2;
+            //    Console.WriteLine(i+". Saatin Sonundaki Bakteri Sayısı: "+bacterium );
+            //}
+
             #endregion
+
+            #region While Döngüsü
+            //While(Şart)
+            //{
+            //İşlemler
+            //}
+            //int i = 0;
+            //while (i < 10)
+            //{
+
+            //    Console.WriteLine(i);
+            //    i++;
+
+            //}
+            //int i = 1;
+            //while (i <= 10)
+            //{
+            //    if(i % 3 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //        i+=4;
+            //    }
+            //    else
+            //    {
+            //        i++;
+            //    }
+
+            //}
+
+            //int i = 1;
+            //int sum = 0;
+            //while(i <=10)
+            //{
+            //    sum += i;
+            //    i++;
+
+            //}
+            //Console.WriteLine(sum);
+
+            #endregion
+
+            #region Örnek Sınav Sorusu
+            //30.Dakikada Kaldım
+            #endregion
+
+
             Console.Read();
         }
     }
