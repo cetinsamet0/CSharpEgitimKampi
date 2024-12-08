@@ -148,7 +148,25 @@ namespace _04_Loops
             #endregion
 
             #region Örnek Sınav Sorusu
-            //30.Dakikada Kaldım
+            //Klavyeden girilen 3 basamaklı sayınınn basamaklarının toplamını ekrana yazdıran kod
+            //456
+            Console.Write("Sayıyı Giriniz: ");
+            int number = int.Parse(Console.ReadLine());
+            int ones, tens, hundreds;
+            int sum;
+
+            hundreds = number / 100;
+            tens = (number % 100) / 10;
+            ones = number % 10;
+
+            Console.WriteLine("Yüzler Basamağı: " + hundreds);
+            Console.WriteLine("Onlar Basamağı: " + tens);
+            Console.WriteLine("Birler Basamağı: " + ones);
+
+            sum = ones + tens + hundreds;
+            Console.WriteLine(number + "'sayısının rakamlarının toplamı: " + sum);
+
+
             #endregion
 
 
