@@ -69,10 +69,60 @@ namespace _08_Methods
             //string customerName()
             //{
             //    return "Buse Yıldız";
-                // Bu metot ekrana bir şey yazdırmaz
+            // Bu metot ekrana bir şey yazdırmaz
             //}
             //customerName();
-            //14.59 da kaldım
+            //string studentCard()
+            //{
+            //    string name = "Adem";
+            //    string surname = "Can";
+            //    return name + " " + surname;
+            //}
+            //Console.WriteLine(studentCard());
+            #endregion
+            #region Geriye Değer Döndüren String Parametreli Metotlar
+            //string countryCard(string countryName,string capital,string flagColor)
+            //{
+            //    string countryInfo = "Ülke: " + countryName + " - Başkent: " + capital + " - Bayrak Rengi: " + flagColor;
+            //    return countryInfo;
+            //}
+            //string x, y, z;
+            //Console.Write("Ülkenin İsmini Giriniz: ");
+            //x = Console.ReadLine();
+            //Console.Write("Ülkenin Başkentini Giriniz: ");
+            //y = Console.ReadLine();
+            //Console.Write("Ülkenin Bayrak Rengini Giriniz: ");
+            //z = Console.ReadLine();
+            //Console.WriteLine(countryCard(x,y,z));
+
+            #endregion
+            #region Geriye Değer Döndüren Int Parametreli Metotlar
+            //int Sum(int number1,int number2)
+            //{
+            //    int result = number1 + number2;
+            //    return result;
+
+            //}
+
+            //Console.WriteLine(Sum(5, 10));
+            //Console.WriteLine(Sum(10,45));
+            //string examResult(string studentName, int exam1,int exam2)
+            //{
+            //    int result = (exam1 + exam2) / 2;
+            //    if(result < 50)
+            //    {
+            //        return studentName + "Öğrenci kaldı";
+
+            //    }
+
+            //    else {
+            //        return studentName + "Öğrenci geçti";
+            //    }
+
+            //}
+            //Console.WriteLine(examResult("Ali", 50, 60));
+            #endregion
+            #region Örnek Uygulama
             #endregion
 
             Console.Read();
